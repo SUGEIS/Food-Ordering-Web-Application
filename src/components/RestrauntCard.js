@@ -8,7 +8,7 @@ const RestrauntCard =({
     
   
    return(
-      <div className="w-56 px-2 py-3 m-2 shadow-lg bg-amber-50">
+      <div className="w-60 px-6 py-3 m-2 shadow-lg bg-amber-50">
         <img 
         src={
           IMG_CDN_URL+
@@ -17,7 +17,7 @@ const RestrauntCard =({
         />
         <h2 className="font-bold text-xl ">{name} </h2>
         {/* <h3>{cuisines.join(",")}</h3> */}
-        <h3>{cuisines}</h3>
+        <h3>{cuisines.join(", ")}</h3>
         
       </div>
     );

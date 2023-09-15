@@ -60,7 +60,7 @@ const RestrauntMenu = () =>{
             {/* <h3>{ (menu[1].card.info.name)}</h3>*/}
             {console.log(menu[0]?.card?.info?.imageId)};
             <h3>{restaurant.name}</h3>
-            <h3>{restaurant.cuisines}</h3>
+            <h3>{restaurant.cuisines.join(",")}</h3>
             
 
            </div>

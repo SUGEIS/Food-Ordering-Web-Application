@@ -29,7 +29,7 @@ const Title = ()=>(
 
     return(
 
-      <div className="flex justify-between bg-amber-200 shadow-lg">
+      <div className="flex justify-between bg-orange-400 shadow-lg">
         <Title/>
         <div className="nav-items" >
           <ul className="flex py-10">

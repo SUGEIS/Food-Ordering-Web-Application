@@ -52,10 +52,10 @@ import useOnline from "../utils/useOnline"
 
      return (allRestaurants.length === 0 )?< Shimmer />:(
     <>
-    <div className="search-container p-5 bg-amber-100 my-2">
+    <div className="search-container p-5 bg-orange-200 my-2">
     <input
     type="text"
-    className="focus:bg-red-200"
+    className="focus:bg-yellow-300"
     placeholder="Search"
     value={searchText}
     onChange = {(e) => {
@@ -70,7 +70,7 @@ import useOnline from "../utils/useOnline"
     //     backgroundColor:"blue,"
     // }}
 
-     className="p-2 m-2 bg-green-600 hover:bg-amber-700 text-white rounded-xl"
+     className="p-2 m-2 bg-green-600 hover:bg-red-950 text-white rounded-xl"
 
      onClick={() => {
 
